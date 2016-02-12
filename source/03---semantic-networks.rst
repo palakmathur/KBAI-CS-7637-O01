@@ -79,6 +79,24 @@ Each representation has its own affordances and its own constraints.
 03 - Introduction to Semantic Networks
 --------------------------------------
 
+.. image:: https://dl.dropbox.com/s/vkgsf3dtuvx0cm1/Screenshot%202016-02-09%2023.13.39.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+.. image:: https://dl.dropbox.com/s/eoz4g7qbbwkfq6g/Screenshot%202016-02-09%2023.15.59.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+.. image:: https://dl.dropbox.com/s/64qas3ujk7mh9wa/Screenshot%202016-02-09%2023.16.27.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
 To understand semantic networks as a knowledge representation, let us take an example. This is an example that we saw in
 a previous lesson.
 
@@ -160,6 +178,13 @@ and that in the second image.
 04 - Exercise Constructing Semantic Nets I
 ------------------------------------------
 
+.. image:: https://dl.dropbox.com/s/qxad1flmebvaok9/Screenshot%202016-02-09%2023.17.32.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+
 >> Okay, very good. Here is C and I've just chosen one of the choices out of the six choices, five here. And so we're
 going to try to build a semantic network for C and five, just the way we built it for A and B. So for
 
@@ -170,6 +195,13 @@ between these objects here, as well as labels for the link in the, between the o
 
 05 - Exercise Constructing Semantic Nets I
 ------------------------------------------
+
+.. image:: https://dl.dropbox.com/s/wkv3t8s8tlheb5z/Screenshot%202016-02-09%2023.19.20.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
 
 >> Now David made an important point here.
 
@@ -182,6 +214,11 @@ we will use a vocabulary of inside and above and we will try to use it consisten
 
 06 - Exercise Constructing Semantic Nets II
 -------------------------------------------
+
+.. image:: https://dl.dropbox.com/s/aro75560vxwjtgd/Screenshot%202016-02-09%2023.20.01.png
+   :align: center
+   :height: 300
+   :width: 450
 
 Let's go one step further. Now we have the semantic network for C, and the semantic network for 5. But we have yet to
 capture the knowledge of the transformation from C to 5. So we have to label the, these three links.
@@ -274,6 +311,17 @@ Nutritional labels capture some information that allows us to make good inferenc
 12 - Guards and Prisoners
 -------------------------
 
+.. image:: https://dl.dropbox.com/s/6vvv97bbaam41z3/Screenshot%202016-02-09%2023.25.27.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+.. image:: https://dl.dropbox.com/s/xckyrsal65d3c1q/Screenshot%202016-02-09%2023.26.16.png
+   :align: center
+   :height: 300
+   :width: 450
+
 Let us now look at a different problem, not a 2 by 1 matrix problem but a problem called the guards and prisoners
 problem. Actually this problem goes by many names, Cannibals and missionaries problem, the jealous husbands problem and
 so on. It was first seen in a math text book about 880 and has been used by many people in AI for discussing problem
@@ -296,6 +344,11 @@ you're going to have fun with this one.
 
 13 - Semantic Networks for Guards  Prisoners
 --------------------------------------------
+
+.. image:: https://dl.dropbox.com/s/5yrv8iufg3dii1s/Screenshot%202016-02-12%2006.46.23.png
+   :align: center
+   :height: 300
+   :width: 450
 
 Let us try to construct a semantic network representation, for this guards and prisoners problem, and see how we can use
 it to, do the problem solving. So in this representation, I'm going to say that each node is a state in the problem
@@ -328,6 +381,18 @@ objects inside each state, as well as the labels on the links between the differ
 
 14 - Solving the Guards and Prisoners Problem
 ---------------------------------------------
+
+.. image:: https://dl.dropbox.com/s/6hq1svj58jv2o4f/Screenshot%202016-02-12%2006.50.23.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+.. image:: https://dl.dropbox.com/s/mck9fj16j6tz4nv/Screenshot%202016-02-12%2006.51.00.png
+   :align: center
+   :height: 300
+   :width: 450
+
 
 There's an old saying in AI, which goes like, if you have the right knowledge representation, problem solving becomes
 very easy. Let's see whether that also works here.
@@ -378,6 +443,12 @@ For the time being, let's go along with our problem solving.
 15 - Exercise Guards and Prisoners I
 ------------------------------------
 
+.. image:: https://dl.dropbox.com/s/wntb74h8kig78bj/Screenshot%202016-02-12%2006.53.19.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
 >> Write the number of guards on the left coast in the top left box, just as a number zero, one, two, or three. The
 number of prisoners on the left coast in the bottom left box, the number of guards on the right coast in the top right
 box, and the number of prisoners on the right coast in the bottom right box.
@@ -386,6 +457,18 @@ box, and the number of prisoners on the right coast in the bottom right box.
 16 - Exercise Guards and Prisoners I
 ------------------------------------
 
+.. image:: https://dl.dropbox.com/s/1wb95nn7ghvobpz/Screenshot%202016-02-12%2006.54.29.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+.. image:: https://dl.dropbox.com/s/tqbbv3y936b5zuz/Screenshot%202016-02-12%2006.55.07.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
 >> So, in this semantic network, we don't really care how we got into a state, just as long as we know what state we are
 in. And that makes sense in this problem solving process. Once we are in this state, we don't care if we got to it this
 way or this way. All we care about is the current state of the problem.
@@ -393,6 +476,11 @@ way or this way. All we care about is the current state of the problem.
 
 17 - Exercise Guards and Prisoners II
 -------------------------------------
+
+.. image:: https://dl.dropbox.com/s/a9o8sg5fv3p0tet/Screenshot%202016-02-12%2006.56.21.png
+   :align: center
+   :height: 300
+   :width: 450
 
 Let us take this problem solving a little bit further. Now that we're in this state, let us write down all the legal
 moves that can follow.
@@ -405,6 +493,17 @@ that can follow from here.
 18 - Exercise Guards and Prisoners II
 -------------------------------------
 
+.. image:: https://dl.dropbox.com/s/whwacl4o7bw8yoq/Screenshot%202016-02-12%2006.57.21.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+.. image:: https://dl.dropbox.com/s/8enhrhi5q4sd0ss/Screenshot%202016-02-12%2006.58.07.png
+   :align: center
+   :height: 300
+   :width: 450
+
 >> In fact, David, most of us have the same difficulty. So the power of this semantic network as a representation is
 arising because it allows us to systematically solve this problem because it makes all the constraints, all the objects,
 all the relationships, all the moves very explicit.
@@ -413,13 +512,16 @@ all the relationships, all the moves very explicit.
 19 - Exercise Guards and Prisoners III
 --------------------------------------
 
+.. image:: https://dl.dropbox.com/s/rvfh4daiw6gbz1m/Screenshot%202016-02-12%2006.59.12.png
+   :align: center
+   :height: 300
+   :width: 450
+
 We can continue this problem solving process further and solve this guards and prisoners problem. I'll not do that here,
 both because it will take a long time, and because the entire picture will not fit into the screen. But
 
-
 I would like you to do it yourself. And I want you to do it and tell me how many moves does it take to move all the
 guards and all the prisoners from one side to the other side of the river?
-
 
 Once you are done. Once you have solved the problem and moved all the guards and prisoners to the other side, write the
 number of moves here in this box.
@@ -427,6 +529,11 @@ number of moves here in this box.
 
 20 - Exercise Guards and Prisoners III
 --------------------------------------
+
+.. image:: https://dl.dropbox.com/s/094aldp8r5a7ilz/Screenshot%202016-02-12%2006.59.57.png
+   :align: center
+   :height: 300
+   :width: 450
 
 >> So we've not yet talked about, how an AI method, can determine which states are productive and which states are
 unproductive.
@@ -437,6 +544,11 @@ We'll revisit this issue in the next couple lessons.
 
 21 - Represent  Reason for Analogy Problems
 -------------------------------------------
+
+.. image:: https://dl.dropbox.com/s/2l3o6opcti112yw/Screenshot%202016-02-12%2007.00.43.png
+   :align: center
+   :height: 300
+   :width: 450
 
 Now that we have seen how, the semantic network knowledge representation, enables problem solving, let us return to that
 earlier problem that we were talking about. The problem of A is to B, as C is to 5.
@@ -457,6 +569,11 @@ match representation on the right.
 
 22 - Exercise Represent  Reason for Ravens
 ------------------------------------------
+
+.. image:: https://dl.dropbox.com/s/6anznl5ydgwx2vu/Screenshot%202016-02-12%2007.03.29.png
+   :align: center
+   :height: 300
+   :width: 450
 
 So, let us do another exercise together. This time I have picked a different choice, choice 2 here. So now, we can build
 a representation for
@@ -480,6 +597,11 @@ And then answer whether or not two is the right answer for this problem.
 24 - Exercise How do we choose a match
 --------------------------------------
 
+.. image:: https://dl.dropbox.com/s/u62vrfkj3er5ttg/Screenshot%202016-02-12%2007.05.35.png
+   :align: center
+   :height: 300
+   :width: 450
+
 Let us do another exercise. This is actually an exercise we've come across earlier, however this exercise has an
 interesting property.
 
@@ -495,11 +617,26 @@ think is the right choice here?
 25 - Exercise How do we choose a match
 --------------------------------------
 
+.. image:: https://dl.dropbox.com/s/pe5s968g13g9g1x/Screenshot%202016-02-12%2007.07.03.png
+   :align: center
+   :height: 300
+   :width: 450
+
 >> That's a great question. Let's look at this in more detail.
 
 
 26 - Choosing Matches by Weights
 --------------------------------
+
+.. image:: https://dl.dropbox.com/s/dpsbvjk3douo9xf/Screenshot%202016-02-12%2007.18.50.png
+   :align: center
+   :height: 300
+   :width: 450
+
+.. image:: https://dl.dropbox.com/s/48dp1cn5bd93ljk/Screenshot%202016-02-12%2007.19.47.png
+   :align: center
+   :height: 300
+   :width: 450
 
 So let us look at the semantic network representation of the relationship between A and B. In one view of the
 transformation from A to B, we can think of q, the outer circle, as remaining unchanged, and p the inner circle, as
@@ -535,6 +672,11 @@ in the last shot.
 27 - Discussion Choosing a Match by Weight
 ------------------------------------------
 
+.. image:: https://dl.dropbox.com/s/fd7c0jkdg3kvwrc/Screenshot%202016-02-12%2007.21.14.png
+   :align: center
+   :height: 300
+   :width: 450
+
 >> What does everyone think about David's answer?
 
 
@@ -543,6 +685,11 @@ Did David give the right answer with two?
 
 28 - Discussion Choosing a Match by Weight
 ------------------------------------------
+
+.. image:: https://dl.dropbox.com/s/93ambui59kuiz6g/Screenshot%202016-02-12%2007.22.47.png
+   :align: center
+   :height: 300
+   :width: 450
 
 What is everyone think? Is 2 the right answer here? Well, lets look at the choices. First note, that both 2 and 4 are
 legitimate answers.
@@ -560,6 +707,13 @@ correct answer.
 
 29 - Connections
 ----------------
+
+.. image:: https://dl.dropbox.com/s/857g00u1onrpehc/Screenshot%202016-02-12%2007.25.00.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
 
 Before we end this lesson, I want to draw several connections.
 

@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Knowledge Based AI - CS7376-O01's documentation!
-===========================================================
+Knowledge Based AI - CS7376-O01
+===============================
 
 Contents:
 
@@ -16,7 +16,6 @@ Contents:
    03---semantic-networks.rst
    04---generate-&-test.rst
    05---means-end-analysis.rst
-   06---production-systems.rst
    07---frames.rst
    08---learning-by-recording-cases.rst
    09---case-based-reasoning.rst
