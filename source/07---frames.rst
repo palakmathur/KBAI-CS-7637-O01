@@ -14,6 +14,11 @@
 01 - Preview
 ------------
 
+.. image:: https://dl.dropbox.com/s/makgw7yfxwllzi4/Screenshot%202016-02-12%2021.39.40.png
+   :align: center
+   :height: 300
+   :width: 450
+
 Today we'll talk about frames. Frames are a very powerful and very common knowledge representation. Frames are our first
 step, a basic unit towards building a creative common sense reasoning. They'll also come up in several other topics,
 such as understanding. We'll begin by talking about the function of frames, what are they useful for, and what makes
@@ -24,6 +29,12 @@ frames can be very useful for sense-making. For story understanding.
 
 02 - Exercise Ashok Ate a Frog
 ------------------------------
+
+.. image:: https://dl.dropbox.com/s/okxzmvilkin63f6/Screenshot%202016-02-12%2021.40.43.png
+   :align: center
+   :height: 300
+   :width: 450
+
 
 We started this unit by saying, that frames are a useful knowledge representation, for enabling common sense reasoning.
 But what is common sense reasoning? You can do it, I can do it. How do we make a machine do it?
@@ -41,6 +52,11 @@ What did you just understand? Try to answer the questions on the right.
 
 03 - Exercise Ashok Ate a Frog
 ------------------------------
+
+.. image:: https://dl.dropbox.com/s/sdqfmchp8ys47tz/Screenshot%202016-02-12%2021.41.29.png
+   :align: center
+   :height: 300
+   :width: 450
 
 >> I believe I did. So is the first frog dead or alive? I can't imagine you eating a frog and the frog staying alive, so
 I'm going to say the frog is dead.
@@ -69,8 +85,18 @@ called Frames that will allow us to make some inferences of this kind.
 04 - How do we make sense of a sentence
 ---------------------------------------
 
-Let us look at the meaning of the sentence, Ashok ate a frog.
+.. image:: https://dl.dropbox.com/s/4y6xhsujq2e73u3/Screenshot%202016-02-12%2021.44.02.png
+   :align: center
+   :height: 300
+   :width: 450
 
+
+.. image:: https://dl.dropbox.com/s/ettz6xa7i56aqo3/Screenshot%202016-02-12%2021.44.58.png
+   :align: center
+   :height: 300
+   :width: 450
+
+Let us look at the meaning of the sentence, Ashok ate a frog.
 
 When I say the sentence, you understand its meaning immediately. But what did you understand? What is the meaning, of
 the meaning, of the sentence?
@@ -152,6 +178,11 @@ default values for particular slots.
 05 - Exercise Making sense of a sentence
 ----------------------------------------
 
+.. image:: https://dl.dropbox.com/s/vlglwqmvhqn8omj/Screenshot%202016-02-12%2021.46.34.png
+   :align: center
+   :height: 300
+   :width: 450
+
 Okay, let us do an exercise. On the left I have shown you a sentence.
 
 
@@ -163,6 +194,16 @@ Ate, as well as the fillers that will go for these slots for this particular inp
 
 06 - Exercise Making sense of a sentence
 ----------------------------------------
+
+.. image:: https://dl.dropbox.com/s/63c7zet0ks2dfsk/Screenshot%202016-02-12%2021.47.03.png
+   :align: center
+   :height: 300
+   :width: 450
+
+.. image:: https://dl.dropbox.com/s/04zh9crl2ltn9fy/Screenshot%202016-02-12%2021.48.56.png
+   :align: center
+   :height: 300
+   :width: 450
 
 >> That's a very good answer, David. First of all, your answer is correct.
 
@@ -194,6 +235,12 @@ and presentation of frames.
 
 07 - Complex Frame Systems
 --------------------------
+
+.. image:: https://dl.dropbox.com/s/1otdytjnwa5l5o3/Screenshot%202016-02-12%2021.50.36.png
+   :align: center
+   :height: 300
+   :width: 450
+
 
 >> That's a good point, David. So far, we have been talking about sentence level understanding. The sentence that Angela
 ate lasagna at Olive Garden with her dad, for example. But we can also also about discourse level understanding.
@@ -230,15 +277,30 @@ as we continue with this course.
 08 - Properties of Frames
 -------------------------
 
+.. image:: https://dl.dropbox.com/s/ay6xqawr08hm0qn/Screenshot%202016-02-12%2022.14.04.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+.. image:: https://dl.dropbox.com/s/for9terhco6juwf/Screenshot%202016-02-12%2022.15.06.png
+   :align: center
+   :height: 300
+   :width: 450
+
 >> David, that is a very good point, in fact there is a history to it.
 
 
 Frames and object relevant programming came about the same time in the 1960s and the 1970s. And I'm sure they influenced
 each other in both directions.
 
-
 09 - Exercise Interpeting a Frame System
 ----------------------------------------
+
+.. image:: https://dl.dropbox.com/s/mrw4iq6mt98vmjj/Screenshot%202016-02-12%2022.16.34.png
+   :align: center
+   :height: 300
+   :width: 450
 
 Let us do an exercise together. Imagine that there is a set of frames here that is capturing a conceptual knowledge.
 
@@ -265,6 +327,17 @@ have shown so far.
 
 11 - Frames and Semantic Nets
 -----------------------------
+
+.. image:: https://dl.dropbox.com/s/gftrliwla9ed2ue/Screenshot%202016-02-12%2022.19.16.png
+   :align: center
+   :height: 300
+   :width: 450
+
+.. image:: https://dl.dropbox.com/s/xa5u5rnzdeai0ya/Screenshot%202016-02-12%2022.20.24.png
+   :align: center
+   :height: 300
+   :width: 450
+
 
 We can also use frames to address the Raven's Matrices problems that we have been talking about all throughout this
 course. In fact as we do so we'll note another interesting fact, frames in semantic networks are closely related. So
@@ -297,6 +370,11 @@ fact, this is a notation we'll use with the rest of the exercises in this lesson
 12 - Exercise Frames and Semantic Networks
 ------------------------------------------
 
+.. image:: https://dl.dropbox.com/s/jqran96hr27a8jh/Screenshot%202016-02-12%2022.21.08.png
+   :align: center
+   :height: 300
+   :width: 450
+
 Let us do an exercise together to make sure that we understand frame representations for images like this. So consider
 the image shown here on the top left.
 
@@ -312,6 +390,11 @@ Can you write down all the slots and the fillers for these three frames?
 
 14 - Frames and Production Systems
 ----------------------------------
+
+.. image:: https://dl.dropbox.com/s/bmr2a1lez521j67/Screenshot%202016-02-12%2022.23.17.png
+   :align: center
+   :height: 300
+   :width: 450
 
 We have actually come across the notion of frames earlier, when we were talking about production systems.
 
@@ -341,6 +424,11 @@ structured knowledge representations, which generate expectations and make the p
 15 - Exercise Frames  Complex Understanding
 -------------------------------------------
 
+.. image:: https://dl.dropbox.com/s/3q18bngba1pla6i/Screenshot%202016-02-12%2022.24.14.png
+   :align: center
+   :height: 300
+   :width: 450
+
 To see both the power and the limitations of the frame knowledge representation, let's do an exercise together. So,
 please read the story.
 
@@ -352,11 +440,25 @@ the frame of earthquake.
 16 - Exercise Frames  Complex Understanding
 -------------------------------------------
 
+.. image:: https://dl.dropbox.com/s/qc3esfl25g2g3bc/Screenshot%202016-02-12%2022.25.48.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+
 >> Or, if you're interested in reading more about this now, you can go ahead and go watch those lessons.
 
 
 17 - Assignment Frames
 ----------------------
+
+.. image:: https://dl.dropbox.com/s/erbl9vaztquee1h/Screenshot%202016-02-12%2022.26.27.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
 
 For this assignment, discuss how you'd use frames to represent Raven's Progressive Matrices. At a basic level, what are
 the slots and fillers associated with different Raven's problems? Where are these frames going to come from? Is the
@@ -384,6 +486,13 @@ What are frames going to enable us to do, that we couldn't do otherwise?
 
 18 - Wrap Up
 ------------
+
+.. image:: https://dl.dropbox.com/s/pwzxdjhgfze1v4m/Screenshot%202016-02-12%2022.27.52.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
 
 So, today we discussed frames, which are one of the knowledge representations that we'll see throughout this course. We
 started off by talking about the basic structure of frames which involves slots and fillers, and we talked about how
@@ -447,6 +556,11 @@ more that we'll get into slowly.
 
 20 - Final Quiz
 ---------------
+
+.. image:: https://dl.dropbox.com/s/zk8g9v6gn0qw1x4/Screenshot%202016-02-12%2022.30.22.png
+   :align: center
+   :height: 300
+   :width: 450
 
 Please fill out what you learned in this lesson in this box.
 
