@@ -14,9 +14,19 @@
 01 - Preview
 ------------
 
+.. image:: https://dl.dropbox.com/s/bkfnazcgmotmw1l/Screenshot%202016-02-12%2009.10.28.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+.. image:: https://dl.dropbox.com/s/z2d24ajfuq79z0x/Screenshot%202016-02-12%2009.11.39.png
+   :align: center
+   :height: 300
+   :width: 450
+
 Today, we'll talk about a very general method called generate and test. We have looked at knowledge representations like
 semantic networks.
-
 
 We'll shift our attention now to problem solving methods. Generate and test is a problem solving method. This is another
 item in our fundamental topics part of the course. The generate and test method in a way, is very simple. Given a
@@ -34,6 +44,12 @@ method in conjunction with semantic networks, or the prisoners and guards proble
 
 02 - Guards and Prisoners
 -------------------------
+
+.. image:: https://dl.dropbox.com/s/8sbamw63563dt7m/Screenshot%202016-02-12%2009.13.15.png
+   :align: center
+   :height: 300
+   :width: 450
+
 
 Knowledge-based AI is a collection of three things.
 
@@ -72,12 +88,22 @@ So the first and the third states are removed by the tester.
 03 - Exercise Generate and Test I
 ---------------------------------
 
+.. image:: https://dl.dropbox.com/s/2e0gtj8y7ya15yn/Screenshot%202016-02-12%2018.42.47.png
+   :align: center
+   :height: 300
+   :width: 450
+
 Let us continue with this exercise one step further. So now we have three successor states to the initial state. Given
 these three successor states, what states might the dumb generator generate next?
 
 
 04 - Exercise Generate and Test I
 ---------------------------------
+
+.. image:: https://dl.dropbox.com/s/u4w81zr0fx4vus5/Screenshot%202016-02-12%2018.43.21.png
+   :align: center
+   :height: 300
+   :width: 450
 
 >> So from the top state we have three possible next states.
 
@@ -93,12 +119,24 @@ David is saying that the DOM generator will generate the successive states.
 05 - Exercise Generate and Test II
 ----------------------------------
 
+.. image:: https://dl.dropbox.com/s/59symczlik592y7/Screenshot%202016-02-12%2018.44.24.png
+   :align: center
+   :height: 300
+   :width: 450
+
 So now that we have all of these states that the generator has generated, given that we have a dump tester what states
 will the dump tester dismiss?
 
 
 06 - Exercise Generate and Test II
 ----------------------------------
+
+.. image:: https://dl.dropbox.com/s/22w7nde94a66x43/Screenshot%202016-02-12%2018.45.12.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
 
 >> So the only one of these six states that disobeys our one rule against having more prisoners than guards on either
 shore, is this state over here. So, that's the only state that's going to get thrown out. These five states are all
@@ -112,6 +150,11 @@ It won't matter how we got there, once we're there.
 
 07 - Dumb Generators, Dumb Testers
 ----------------------------------
+
+.. image:: https://dl.dropbox.com/s/ppdy1vlboal85xo/Screenshot%202016-02-12%2018.46.00.png
+   :align: center
+   :height: 300
+   :width: 450
 
 Now we can continue to apply this method of generate and test iteratively. So we can apply it on this state and that
 state and see what successor states we get.
@@ -140,6 +183,17 @@ a very powerful problem solving method.
 
 08 - Smart Testers
 ------------------
+
+.. image:: https://dl.dropbox.com/s/h6oaserxk1qv4rj/Screenshot%202016-02-12%2018.53.17.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+.. image:: https://dl.dropbox.com/s/gc2fdbz8pob9cul/Screenshot%202016-02-12%2018.57.06.png
+   :align: center
+   :height: 300
+   :width: 450
 
 So suppose that we have a smarter tester, a tester which can detect when any state is identical to a previously visited
 state. In that case the tester may decide that this, this, and this state are identical to the initial state and
@@ -174,6 +228,11 @@ might happen.
 09 - Smart Generators
 ---------------------
 
+.. image:: https://dl.dropbox.com/s/imr5a7qmd7mhmzx/Screenshot%202016-02-12%2019.00.14.png
+   :align: center
+   :height: 300
+   :width: 450
+
 Instead of the generator generating all the successive states and then a tester finding out that this state, this state
 and this state are identical to the initial state. One could make the generator itself smarter and say that a generator
 will not even generate these three states, but it will know that it should not generate states that are already up here.
@@ -207,11 +266,21 @@ smart.
 10 - Discussion Smart Generators and Testers
 --------------------------------------------
 
+.. image:: https://dl.dropbox.com/s/sa7ibcum7s43rn7/Screenshot%202016-02-12%2019.01.41.png
+   :align: center
+   :height: 300
+   :width: 450
+
 >> What does everyone else think? Is David right about this?
 
 
 11 - Discussion Smart Generators and Testers
 --------------------------------------------
+
+.. image:: https://dl.dropbox.com/s/v0z6auyrls3sc4g/Screenshot%202016-02-12%2019.02.25.png
+   :align: center
+   :height: 300
+   :width: 450
 
 >> That sounds like a good answer, to me. So once again, we are back to the issue of where do we draw the balance of
 responsibility between the generator and the tester?
@@ -223,6 +292,11 @@ be a powerful method.
 
 12 - Generate  Test for Ravens Problems
 ---------------------------------------
+
+.. image:: https://dl.dropbox.com/s/9ss6zu6gybi09j0/Screenshot%202016-02-12%2019.03.10.png
+   :align: center
+   :height: 300
+   :width: 450
 
 Let us return to our problem from the intelligence test to see how generate and test might apply as a problem solving
 method. Again, here is a problem that we encountered earlier. Notice that this is a more complicated problem than the
@@ -248,6 +322,11 @@ smarter tester is critical, because this space of possibilities can become very 
 13 - Semantic Networks for Generate and Test
 --------------------------------------------
 
+.. image:: https://dl.dropbox.com/s/g1mw5gp2bcz2zov/Screenshot%202016-02-12%2019.04.11.png
+   :align: center
+   :height: 300
+   :width: 450
+
 This is where the knowledge representation helps a lot.  The semantic network knowledge representation provides a level
 of  abstraction at which the problem gets represented and analyzed.  So, although this particular diamond y could have
 been displaced here or  a little bit further, it could have been of this size, maybe a little smaller,  a little bit
@@ -262,6 +341,11 @@ coupled together that solve the problem, that provide the reasoning.
 
 14 - Generate  Test for Ravens Problems II
 ------------------------------------------
+
+.. image:: https://dl.dropbox.com/s/6gsnncfc7jqrrfw/Screenshot%202016-02-12%2019.05.14.png
+   :align: center
+   :height: 300
+   :width: 450
 
 >> So let's assume that we're using[br]semantic network as a representation for this particular class of problem.
 
@@ -329,6 +413,11 @@ problem solving method might be applicable[br]using technology representation.
 15 - Assignment Generate  Test
 ------------------------------
 
+.. image:: https://dl.dropbox.com/s/jof05l0jlalrcvl/Screenshot%202016-02-12%2019.07.07.png
+   :align: center
+   :height: 300
+   :width: 450
+
 So how would you use generate and test to actually solve[br]Raven's Progressive Matrices?
 
 
@@ -367,6 +456,11 @@ And then talk about how you[br]would use that information to generate what you[b
 
 16 - Wrap Up
 ------------
+
+.. image:: https://dl.dropbox.com/s/ewsxgi40r81bvxs/Screenshot%202016-02-12%2019.08.14.png
+   :align: center
+   :height: 300
+   :width: 450
 
 Let's wrap up our topic for today.
 
