@@ -14,6 +14,31 @@
 01 - Preview
 ------------
 
+.. image:: https://dl.dropbox.com/s/lek1qgvad5qyf3s/Screenshot%202016-04-24%2019.11.31.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+.. image:: https://dl.dropbox.com/s/7gur9x813p6yx30/Screenshot%202016-04-24%2019.13.44.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+.. image:: https://dl.dropbox.com/s/0kby2rul611vqg6/Screenshot%202016-04-24%2019.14.08.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+.. image:: https://dl.dropbox.com/s/3txeim7eyd1wfuq/Screenshot%202016-04-24%2019.14.33.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+
 Today we'll talk about learning by recording cases.
 
 
@@ -29,6 +54,19 @@ world.
 02 - Exercise Block World I
 ---------------------------
 
+.. image:: https://dl.dropbox.com/s/k2hco3v94slrk77/Screenshot%202016-04-24%2019.15.08.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+.. image:: https://dl.dropbox.com/s/thvcjs0k6eh41ce/Screenshot%202016-04-24%2019.15.40.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+
 To see how learning, the recording cases might work. Consider a world of blocks.
 
 
@@ -42,6 +80,12 @@ is the color, of this block?
 03 - Exercise Block World I
 ---------------------------
 
+.. image:: https://dl.dropbox.com/s/g20czylghzzj977/Screenshot%202016-04-24%2019.16.08.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
 >> You're right, David. Of the various blocks given here, this block best resembles the black block. And therefore the
 best guess would be, this is in fact, a black block. This is an example of learning by recording cases, because six
 cases were recorded in the agent's memory. So when now when a new problem comes along, then the agent gives an answer to
@@ -51,6 +95,12 @@ resembles the new situation. And gives the answer to the new situation for that 
 
 04 - Learning by Recording Cases
 --------------------------------
+
+.. image:: https://dl.dropbox.com/s/dbo8uiv3qhob0bu/Screenshot%202016-04-24%2019.17.11.png
+   :align: center
+   :height: 300
+   :width: 450
+
 
 >> That's a good example David, and we could even try to generalize the numerical diagnosis.
 
@@ -74,6 +124,17 @@ that works in a very large number of situations ranging from tying your shoelace
 
 05 - Case Retrieval by Nearest Neighbor
 ---------------------------------------
+
+.. image::  https://dl.dropbox.com/s/nti7etrs9ghchb5/Screenshot%202016-04-24%2019.19.03.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+.. image:: https://dl.dropbox.com/s/uh75yqdaa4r2g3t/Screenshot%202016-04-24%2019.19.32.png
+   :align: center
+   :height: 300
+   :width: 450
 
 Let us look at this learning by the recalling cases a little bit more closely.
 
@@ -118,12 +179,33 @@ So the nearest neighbor method is one method of finding the most similar case or
 06 - Exercise Retrieval by Nearest Neighbor
 -------------------------------------------
 
+.. image:: https://dl.dropbox.com/s/m591hudsdie5kmc/Screenshot%202016-04-24%2019.20.54.png
+   :align: center
+   :height: 300
+   :width: 450
+
+.. image:: https://dl.dropbox.com/s/ty12cnet9tmwhwn/Screenshot%202016-04-24%2019.21.15.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+.. image:: https://dl.dropbox.com/s/rxjk6g5gkwi251w/Screenshot%202016-04-24%2019.22.02.png
+   :align: center
+   :height: 300
+   :width: 450
+
 Let us do an exercise together. Given the block shown here with the width of 0.8 and the height of 0.8, what do you
 think is the color of this block?
 
 
 07 - Exercise Retrieval by Nearest Neighbor
 -------------------------------------------
+
+.. image:: https://dl.dropbox.com/s/f54khdqpivm8gpe/Screenshot%202016-04-24%2019.23.21.png
+   :align: center
+   :height: 300
+   :width: 450
 
 >> So in this problem, we are dealing with a two-dimensional grid, because here, two coordinates, x and y, are enough to
 represent any one point.
@@ -136,15 +218,16 @@ order to be able to represent all the cases in the new problem. Let's examine a 
 08 - Exercise Recording Cases in Real Life
 ------------------------------------------
 
+.. image:: https://dl.dropbox.com/s/7j4piy2872dziq1/Screenshot%202016-04-24%2019.23.48.png
+   :align: center
+   :height: 300
+   :width: 450
+
 So, here is a map of a small portion of Long Island, New York. Imagine there is an automated car that can navigate the
 streets of this neighborhood.
 
-
-It comes from the factory with these six cases bootstrapped in it. A,
-
-
-B, C, and so on. For the time being, assume that the car navigates it's way in this neighborhood solely by the method of
-learning where the car in case is.
+It comes from the factory with these six cases bootstrapped in it. A, B, C, and so on. For the time being, assume that
+the car navigates it's way in this neighborhood solely by the method of learning where the car in case is.
 
 
 So all it can use is this cases that is knows about. Now, suppose that we have a new problem. The new problem is how to
@@ -154,11 +237,36 @@ go from Q to this end destination denoted by the arrow. What route is most simil
 09 - Exercise Recording Cases in Real Life
 ------------------------------------------
 
->> D here is the right answer. But let us think how we can program an AI agent to come up with this answer.
+.. image:: https://dl.dropbox.com/s/q4ye6k0e74bek5h/Screenshot%202016-04-24%2019.25.08.png
+   :align: center
+   :height: 300
+   :width: 450
 
+
+>> D here is the right answer. But let us think how we can program an AI agent to come up with this answer.
 
 10 - Nearest Neighbor for Complex Problems
 ------------------------------------------
+
+.. image:: https://dl.dropbox.com/s/wokoxjma49y7ib4/Screenshot%202016-04-24%2019.25.50.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+.. image:: https://dl.dropbox.com/s/9suf8xbjb44n0un/Screenshot%202016-04-24%2019.26.14.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+.. image:: https://dl.dropbox.com/s/9h11dq4w5jrr0to/Screenshot%202016-04-24%2019.26.35.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+
 
 Now we can try to calculate the most similar case of the new problem based solely on the origin. The two dimensional
 grid here tries to represent both all the cases and in your problem. Of course we can also calculate the similarity of
@@ -175,6 +283,19 @@ might it decide D is the best route?
 
 11 - Nearest Neighbor in k-Dimensional Space
 --------------------------------------------
+
+.. image:: https://dl.dropbox.com/s/i3skqx0s3f9zxo4/Screenshot%202016-04-24%2019.27.04.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
+.. image:: https://dl.dropbox.com/s/qklgvlfzu6bai9m/Screenshot%202016-04-24%2019.27.42.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
 
 Earlier we had this formula for calculating the Euclidean distance in two dimensions. Now we can generalize it to many
 dimensions. So here is a generalization of the previous formula computing nearest neighbor.
@@ -217,6 +338,13 @@ That is called [UNKNOWN] and we will discuss that in the next lesson.
 
 12 - Assignment Learning by Recording Cases
 -------------------------------------------
+
+.. image:: https://dl.dropbox.com/s/wjfggst6y6rtpk0/Screenshot%202016-04-24%2019.28.03.png
+   :align: center
+   :height: 300
+   :width: 450
+
+
 
 For this assignment, talk about how you might use notion of recording cases to design an agent that can solve Raven's
 Progressive Matrices. You might think of cases in a variety of different ways here. For example, each figure in a
@@ -305,5 +433,12 @@ Please write down what all you learned in this lesson, in this box.
 ---------------
 
 And thank you for doing it.
+
+
+Resources
+---------
+
+* https://techtalktone.wordpress.com/2014/11/09/using-learning-by-recording-cases-to-solve-rpm/
+
 
 
